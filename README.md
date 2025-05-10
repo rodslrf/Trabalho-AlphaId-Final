@@ -6,15 +6,14 @@ Este é um sistema desenvolvido para a empresa **Alfa Engenharia**, com arquitet
 
 ### Front-End
 - **Dart**
-- **Flutter** (Web, Mobile e Desktop-ready)
-- Gerenciamento de estado: `Provider` / `Bloc` (especifique o que usou)
-- Consumo de API REST com `http` ou `Dio`
+- **Flutter** (Web)
+- Consumo de API REST com `http`
 
 ### Back-End
 - **PHP**
-- **Laravel** 10+
+- **Laravel**
 - Autenticação via `Sanctum` / `JWT`
-- Banco de Dados: MySQL / PostgreSQL (especifique)
+- Banco de Dados: MySQL
 - API RESTful
 
 ---
@@ -23,18 +22,15 @@ Este é um sistema desenvolvido para a empresa **Alfa Engenharia**, com arquitet
 
 - Autenticação de usuários (login, cadastro, recuperação de senha)
 - Dashboard administrativo com controle de permissões
-- Cadastro e gerenciamento de obras/projetos de engenharia
-- Upload de documentos e imagens
+- Cadastro e gerenciamento de veículos
 - Relatórios PDF e exportações
-- Notificações em tempo real (opcional, caso tenha usado Firebase ou WebSockets)
+- Notificações em tempo real
 
 ---
 
 ## 🔧 Instalação e Execução
 
 ### Backend (Laravel)
-```bash
-cd backend
 composer install
 cp .env.example .env
 php artisan key:generate
