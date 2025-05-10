@@ -1,32 +1,38 @@
-# 👋 Olá, eu sou o Rodrigo Lopes!
+# Projeto Alfa Engenharia
 
-🎓 Tenho 17 anos e sou estudante do curso técnico de **Desenvolvimento de Sistemas**.
-🚀 Estou construindo minha carreira como desenvolvedor full stack, com interesse em projetos que envolvem soluções criativas, eficientes e que realmente fazem a diferença.
+Este é um sistema desenvolvido para a empresa **Alfa Engenharia**, com arquitetura fullstack. O front-end (mobile) foi construído com **Flutter (Dart)** para garantir performance e responsividade em múltiplas plataformas, e o back-end foi desenvolvido com **Laravel (PHP)** (mobile e web), oferecendo uma API robusta e segura. Também fizemos a integração dos mesmos
 
-## 💻 Tecnologias que conheço
+## 🚀 Tecnologias Utilizadas
 
-- **Linguagens de programação:**  
-  JavaScript | Dart | PHP
+### Front-End
+- **Dart**
+- **Flutter** (Web)
+- Consumo de API REST com `http`
 
-- **Frameworks e ferramentas:**  
-  Flutter (mobile) | Laravel (backend)
+### Back-End
+- **PHP**
+- **Laravel**
+- Autenticação via `Sanctum` / `JWT`
+- Banco de Dados: MySQL
+- API RESTful
 
-- **Outros conhecimentos:**  
-  - Controle de versão com **Git e GitHub**  
-  - Metodologias Ágeis (Scrum, Kanban)  
-  - Boas práticas de desenvolvimento e organização de código
-    
-## 📊 Estatísticas de Linguagens
+---
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=rodslrf&layout=compact&langs_count=6&theme=dracula)
+## ⚙️ Funcionalidades
 
-## 🌱 Atualmente estou aprendendo
-- Aprimorando minhas habilidades nos frameworks **Laravel** e **Flutter**
-- Estudando padrões de projeto e arquitetura de software
-- Participando de projetos e desafios para colocar o conhecimento em prática
+- Autenticação de usuários (login, cadastro, recuperação de senha)
+- Dashboard administrativo com controle de permissões
+- Cadastro e gerenciamento de veículos
+- Relatórios PDF e exportações
+- Notificações em tempo real
 
-## 📫 Vamos nos conectar?
-- Email: rodrigolrf28@gmail.com  
-- LinkedIn: https://www.linkedin.com/in/rodrigo-lopes-83bb412b9/
+---
 
-- ![Visitantes](https://visitor-badge.laobi.icu/badge?page_id=rodslrf.rodslrf&title=Visitantes&color=blue)
+## 🔧 Instalação e Execução
+
+### Backend (Laravel)
+composer install
+cp .env.example .env
+php artisan key:generate
+php artisan migrate
+php artisan serve
